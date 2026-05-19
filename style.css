@@ -154,22 +154,17 @@ nav a:hover{
 }
 
 .blob{
-  width:410px;
-  height:410px;
-  background:#dcd8ff;
-  border-radius:45% 55% 50% 50%;
-  position:absolute;
-  right:20px;
-  top:40px;
-  z-index:1;
+  display:none;
 }
 
 .hero-image img{
   position:relative;
   z-index:2;
   width:370px;
-  max-height:520px;
+  height:470px;
   object-fit:cover;
+  border-radius:22px;
+  box-shadow:0 8px 25px rgba(0,0,0,0.15);
 }
 
 section{
